@@ -1,6 +1,6 @@
 #Ions
 
-This is a bunch of starter user interface elements designed using my favorite techniques.
+This is a bunch of starter user interface elements designed using my favorite techniques. I'm making it possible to use svg icons but I'm not including icons because of licensing. Put your individual svg icons in the svg folder... Grunt will do the rest.
 
 ## want to contribute?
 
