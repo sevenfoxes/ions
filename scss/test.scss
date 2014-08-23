@@ -1,0 +1,11 @@
+@import "../bower_components/normalize-scss/normalize";
+
+body{
+	padding:50px;
+	> svg{
+		display: none;
+	}
+}
+.element_container{
+	padding:100px 0;
+}

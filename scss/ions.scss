@@ -1,0 +1,12 @@
+@import "variables";
+@import "functions";
+
+.btn{
+	@include ion-element(button);
+}
+.btn-normal{
+	@include ion-element(button,normal);
+}
+.btn-round{
+	@include ion-element(button,round);
+}

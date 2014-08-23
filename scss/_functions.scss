@@ -1,0 +1,34 @@
+@mixin ion-feature($feature:none) {
+	
+}
+@mixin ion-button($style) {
+	@if $style == normal {
+		padding:$theme-padding;
+	}
+	@if $style == round {
+		width: $diameter;
+		height: $diameter;
+		padding:$radius / 2;
+		border-radius: 50%;
+	}
+	&:hover{
+		background: lighten($theme-color, 5%);
+	}
+}
+
+@mixin ion-element($element,$style:reset) {
+	@if $style == reset{
+		display:block;
+		margin:0;
+		border: none;
+		text-decoration: none;
+		color: $theme-text-color;
+		background: $theme-color;
+	}
+	@if $element == button{
+		@include ion-button($style);
+	}
+	@else if $element == checkbox{
+		@include ion-checkbox($style);
+	}
+}
